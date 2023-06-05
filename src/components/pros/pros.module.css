@@ -1,0 +1,118 @@
+.prosWrapper{
+    border: 1px solid rgb(231, 0, 0);
+    padding: 2% 0 2% 0 ;
+    height: 100vh;
+}
+
+.prosContainer{
+    max-width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+.prosInner{
+    width: 100%;
+    height: 100%;
+}
+.prosHeader{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #838383;
+}
+
+
+.main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.leftContent{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    border-right: none;
+}
+
+.leftContentHeader{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+}
+
+.rightContent{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+.rightContentHeader{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+}
+/* left items start */
+.prosItems{
+    padding: 12%;
+}
+.prosItems > ol {
+    font-weight: bold;
+    font-size: 24px;
+}
+.prosItems > ol > li{
+    margin-top: 8px;
+    width: 70%;
+}
+.prosItems > ol > li > input{
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid blue;
+}
+
+
+/* .prosItems > ol > li:nth-last-child(1){
+    border: none;
+} */
+
+/* left items end  */
+
+
+
+
+/* right items  start */
+.consItems{
+    padding: 12%;
+}
+
+.consItems  >ol {
+    font-weight: bold;
+    font-size: 24px;
+}
+.consItems  >ol > li {
+    margin-top: 8px;
+    width: 70%;
+} 
+.consItems  > ol > li > input{
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid blue;
+}
+/* .consItems > ol > li:nth-last-child(1){
+    border: none;
+} */
+/* tight items end  */
